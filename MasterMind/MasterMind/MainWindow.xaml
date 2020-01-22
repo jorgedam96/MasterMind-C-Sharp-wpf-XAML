@@ -1,0 +1,136 @@
+﻿<Window x:Class="MasterMind.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:MasterMind"
+    mc:Ignorable="d"
+    Title="MainWindow" Height="Auto" Width="Auto" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" SizeToContent="WidthAndHeight">
+    <StackPanel Orientation="Horizontal">
+        <StackPanel Orientation="Vertical">
+            <Grid Margin="20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Button Grid.Column="0" Grid.Row="0" Width="40" Height="40" Margin="5" Background="White" >
+                    <Image Source="Resources/17264.png"/>
+                </Button>
+                <Button Grid.Column="0" Grid.Row="1" Width="40" Height="40" Margin="5" Background="White" >
+                    <Image Source="Resources/17264.png"/>
+                </Button>
+                <Button Grid.Column="0" Grid.Row="2" Width="40" Height="40" Margin="5" Background="White" >
+                    <Image Source="Resources/17264.png"/>
+                </Button>
+                <Button Grid.Column="0" Grid.Row="3" Width="40" Height="40" Margin="5" Background="White" >
+                    <Image Source="Resources/17264.png"/>
+                </Button>
+                <Button Grid.Column="0" Grid.Row="4" Width="40" Height="40" Margin="5" Background="White" >
+                    <Image Source="Resources/17264.png"/>
+                </Button>
+                <Button Grid.Column="0" Grid.Row="5" Width="40" Height="40" Margin="5" Background="White" >
+                    <Image Source="Resources/17264.png"/>
+                </Button>
+                <Button Grid.Column="0" Grid.Row="6" Width="40" Height="40" Margin="5" Background="White" >
+                    <Image Source="Resources/17264.png"/>
+                </Button>
+                <Button Grid.Column="0" Grid.Row="7" Width="40" Height="40" Margin="5" Background="White" >
+                    <Image Source="Resources/17264.png"/>
+                </Button>
+                <Button Grid.Column="0" Grid.Row="8" Width="40" Height="40" Margin="5" Background="White" >
+                    <Image Source="Resources/17264.png"/>
+                </Button>
+                <Button Grid.Column="0" Grid.Row="9" Width="40" Height="40" Margin="5" Background="White" >
+                    <Image Source="Resources/17264.png"/>
+                </Button>
+                <Button Name="btnf1c1" Grid.Column="1" Grid.Row="0" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf2c1" Grid.Column="1" Grid.Row="1" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf3c1" Grid.Column="1" Grid.Row="2" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf4c1" Grid.Column="1" Grid.Row="3" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf5c1" Grid.Column="1" Grid.Row="4" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf6c1" Grid.Column="1" Grid.Row="5" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf7c1" Grid.Column="1" Grid.Row="6" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf8c1" Grid.Column="1" Grid.Row="7" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf9c1" Grid.Column="1" Grid.Row="8" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf10c1" Grid.Column="1" Grid.Row="9" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf1c2" Grid.Column="2" Grid.Row="0" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf2c2" Grid.Column="2" Grid.Row="1" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf3c2" Grid.Column="2" Grid.Row="2" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf4c2" Grid.Column="2" Grid.Row="3" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf5c2" Grid.Column="2" Grid.Row="4" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf6c2" Grid.Column="2" Grid.Row="5" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf7c2" Grid.Column="2" Grid.Row="6" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf8c2" Grid.Column="2" Grid.Row="7" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf9c2" Grid.Column="2" Grid.Row="8" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf10c2" Grid.Column="2" Grid.Row="9" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf1c3" Grid.Column="3" Grid.Row="0" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf2c3" Grid.Column="3" Grid.Row="1" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf3c3" Grid.Column="3" Grid.Row="2" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf4c3" Grid.Column="3" Grid.Row="3" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf5c3" Grid.Column="3" Grid.Row="4" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf6c3" Grid.Column="3" Grid.Row="5" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf7c3" Grid.Column="3" Grid.Row="6" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf8c3" Grid.Column="3" Grid.Row="7" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf9c3" Grid.Column="3" Grid.Row="8" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf10c3" Grid.Column="3" Grid.Row="9" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf1c4" Grid.Column="4" Grid.Row="0" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf2c4" Grid.Column="4" Grid.Row="1" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf3c4" Grid.Column="4" Grid.Row="2" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf4c4" Grid.Column="4" Grid.Row="3" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf5c4" Grid.Column="4" Grid.Row="4" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf6c4" Grid.Column="4" Grid.Row="5" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf7c4" Grid.Column="4" Grid.Row="6" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf8c4" Grid.Column="4" Grid.Row="7" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf9c4" Grid.Column="4" Grid.Row="8" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf10c4" Grid.Column="4" Grid.Row="9" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf1c5" Grid.Column="5" Grid.Row="0" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf2c5" Grid.Column="5" Grid.Row="1" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf3c5" Grid.Column="5" Grid.Row="2" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf4c5" Grid.Column="5" Grid.Row="3" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf5c5" Grid.Column="5" Grid.Row="4" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf6c5" Grid.Column="5" Grid.Row="5" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf7c5" Grid.Column="5" Grid.Row="6" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf8c5" Grid.Column="5" Grid.Row="7" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf9c5" Grid.Column="5" Grid.Row="8" Width="40" Height="40" Margin="5" Background="White" />
+                <Button Name="btnf10c5" Grid.Column="5" Grid.Row="9" Width="40" Height="40" Margin="5" Background="White" />
+            </Grid>
+            <StackPanel Orientation="Horizontal">
+                <Button Width="40" Height="40" Margin="10,10,0,20" Background="DodgerBlue" Click="clicColorAzul" />
+                <Button Width="40" Height="40" Margin="10,10,0,20" Background="SeaGreen" Click="clicColorVerde" />
+                <Button Width="40" Height="40" Margin="10,10,0,20" Background="Goldenrod" Click="clicColorAmarillo" />
+                <Button Width="40" Height="40" Margin="10,10,0,20" Background="MediumPurple" Click="clicColorMagenta"/>
+                <Button Width="40" Height="40" Margin="10,10,0,20" Background="DarkGray" Click="clicColorGris"/>
+                <Button Width="40" Height="40" Margin="10,10,0,20" Background="Firebrick" Click="clicColorRojo"/>
+                <Button Width="40" Height="40" Margin="10,10,0,20" Background="Black" Click="clicColorNegro"/>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Margin="20,10" Orientation="Vertical" >
+            <StackPanel Orientation="Horizontal" Margin="20,10">
+                <Button x:Name="res1" Width="40" Height="40" Margin="5" Background="White"/>
+                <Button x:Name="res2" Width="40" Height="40" Margin="5" Background="White"/>
+                <Button x:Name="res3" Width="40" Height="40" Margin="5" Background="White"/>
+                <Button x:Name="res4" Width="40" Height="40" Margin="5" Background="White"/>
+            </StackPanel>
+            <Button Margin="0,20" Width="200" Height="100" Content="Rendirse" Click="Rendirse"/>
+            <Button  Margin="0,20" Width="200" Height="100" Content="Nueva Partida" Click="NuevaPartida"/>
+            <Image Margin="0,10" Width="200" Source="Resources/masterminf.jpg"/>
+        </StackPanel>
+    </StackPanel>
+</Window>
